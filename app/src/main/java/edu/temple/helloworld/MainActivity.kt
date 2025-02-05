@@ -13,10 +13,11 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_main)//constraint layout is ran
 
         // Initialize with views defined in Layout - the first one is done for you
-        displayTextView = findViewById(R.id.displayTextView)
+        displayTextView = findViewById(R.id.displayTextView)//var is initialized for the display text view
+        // , the one that we have to change to the user name entry later on
 
         
         findViewById<Button>(R.id.clickMeButton).setOnClickListener {
